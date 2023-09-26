@@ -90,15 +90,25 @@
                                     <action selector="backButtonPressed:" destination="jhq-VE-0lk" eventType="touchUpInside" id="HGp-4g-TDp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PD-6d-MEf">
+                                <rect key="frame" x="70" y="397" width="294" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="acO-yu-MDZ"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="eS6-Uv-ek9"/>
+                    <connections>
+                        <outlet property="label" destination="6PD-6d-MEf" id="9BS-P0-LKw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZ7-mI-jQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733" y="-2"/>
+            <point key="canvasLocation" x="730.43478260869574" y="-2.0089285714285712"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="yFO-Ip-sQN">

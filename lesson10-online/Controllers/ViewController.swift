@@ -10,9 +10,11 @@ class ViewController: UIViewController {
     }
     //MARK: - IBActions
     @IBAction func buttonPressed(_ sender: UIButton) {
-        let controller = self.storyboard?.instantiateViewController(identifier: "SecondViewController")
-        controller?.modalPresentationStyle = .fullScreen
-        self.present(controller!, animated: true)
+        let controller = self.storyboard?.instantiateViewController(identifier: "SecondViewController") as! SecondViewController
+        controller.modalPresentationStyle = .fullScreen
+        controller.text = "Anton"
+        controller.number = 4000
+        self.present(controller, animated: true)
         
     }
     @IBAction func goToSecondScreenPressed(_ sender: UIButton) {
